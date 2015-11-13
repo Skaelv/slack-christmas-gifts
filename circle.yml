@@ -1,0 +1,6 @@
+machine:
+  services:
+    - redis
+test:
+  override:
+    - grunt test
