@@ -22,21 +22,18 @@
       <h3>
 <a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>Slack Christmas Gift</h3>
 <p>A bot that uses Slack API to plan a random one-to-one gift for your team's christmas party.</p>
-<p>To use it just add the integration to your slack's team directory by clicking on the "Add to slack" button.</p>
-<a style="position:relative;left:45%" href="https://slack.com/oauth/authorize?scope=incoming-webhook&client_id=13445302193.14524680640&scope=channels%3Aread+users%3Aread+chat%3Awrite%3Abot"><img alt="Add to Slack" height="40" width="139" src="https://platform.slack-edge.com/img/add_to_slack.png" srcset="https://platform.slack-edge.com/img/add_to_slack.png 1x, https://platform.slack-edge.com/img/add_to_slack@2x.png 2x"></a>
 
+
+<p>To use it just add the integration to your slack's team directory by clicking on the "Add to slack" button.</p>
+<a onclick="addButton();" style="position:relative;left:45%" href="https://slack.com/oauth/authorize?scope=incoming-webhook&client_id=13445302193.14524680640&scope=channels%3Aread+users%3Aread+chat%3Awrite%3Abot"><img alt="Add to Slack" height="40" width="139" src="https://platform.slack-edge.com/img/add_to_slack.png" srcset="https://platform.slack-edge.com/img/add_to_slack.png 1x, https://platform.slack-edge.com/img/add_to_slack@2x.png 2x"></a>
+<p>Once the integration is done just use the following command in any channel : <pre>/christmas</pre></p>
+<p>Santa Bot will send a message to each of the channel members to personnally inform them who they haft to gift for the party.</p>
 <h3>
 <a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a>Screenshots</h3>
 
-<a href="https://github.com/Skaelv/slack-chirstmas-gifts/raw/master/images/capture-1.png?raw=true" aria-hidden="true">
-<a href="https://github.com/Skaelv/slack-chirstmas-gifts/raw/master/images/capture-2.png?raw=true" aria-hidden="true">
-<a href="https://github.com/Skaelv/slack-chirstmas-gifts/raw/master/images/capture-3.png?raw=true" aria-hidden="true">
-
-
-<h3>
-<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out our <a href="https://help.github.com/pages">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>
+<img src="https://github.com/Skaelv/slack-chirstmas-gifts/raw/master/images/capture-1.png?raw=true"/>
+<img src="https://github.com/Skaelv/slack-chirstmas-gifts/raw/master/images/capture-2.png?raw=true"/>
+<img src="https://github.com/Skaelv/slack-chirstmas-gifts/raw/master/images/capture-3.png?raw=true"/>
 
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/Skaelv/slack-chirstmas-gifts">Slack-chirstmas-gifts</a> is maintained by <a href="https://github.com/Skaelv">Skaelv</a>.</span>
@@ -56,6 +53,15 @@
             pageTracker._trackPageview();
             } catch(err) {}
           </script>
+          <!-- start Mixpanel --><script type="text/javascript">(function(e,b){if(!b.__SV){var a,f,i,g;window.mixpanel=b;b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable time_event track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");
+          for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2;a=e.createElement("script");a.type="text/javascript";a.async=!0;a.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"file:"===e.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";f=e.getElementsByTagName("script")[0];f.parentNode.insertBefore(a,f)}})(document,window.mixpanel||[]);
+          mixpanel.init("b548565282c83b9a27b38c46bf28ea5f");
+            mixpanel.track("Accessing the landing page");
+            function addButton() {
+              mixpanel.track("Registration");
+            }
+            </script><!-- end Mixpanel -->
 
   </body>
+
 </html>
