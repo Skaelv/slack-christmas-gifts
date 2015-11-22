@@ -1,6 +1,0 @@
-{"v":0,"level":30,"name":"newrelic","hostname":"kevin","pid":15177,"time":"2015-11-21T12:05:21.166Z","msg":"Starting New Relic for Node.js connection process."}
-{"v":0,"level":30,"name":"newrelic","hostname":"kevin","pid":15177,"time":"2015-11-21T12:05:25.714Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/1156206/applications/11132263","component":"new_relic_response"}
-{"v":0,"level":30,"name":"newrelic","hostname":"kevin","pid":15177,"time":"2015-11-21T12:05:25.717Z","msg":"Connected to collector-171.newrelic.com:443 with agent run ID 47812715063120087.","component":"collector_api"}
-{"v":0,"level":30,"name":"newrelic","hostname":"kevin","pid":15354,"time":"2015-11-21T12:06:35.605Z","msg":"Starting New Relic for Node.js connection process."}
-{"v":0,"level":30,"name":"newrelic","hostname":"kevin","pid":15354,"time":"2015-11-21T12:06:40.515Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/1156206/applications/11132263","component":"new_relic_response"}
-{"v":0,"level":30,"name":"newrelic","hostname":"kevin","pid":15354,"time":"2015-11-21T12:06:40.516Z","msg":"Connected to collector-171.newrelic.com:443 with agent run ID 47812715063123589.","component":"collector_api"}
